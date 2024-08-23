@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Cycle Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <i id="fa-lightbulb" class="fas fa-lightbulb"></i>
+    <h1>Sleep Cycle Calculator</h1>
+    <img src="image.png" alt="" id="moonsidebar" />
+    <main>
+      <label for="wake-time">Desired Wake-Up Time:</label>
+      <input type="time" id="wake-time" name="wake-time" />
+
+      <label for="bed-time">Desired Bedtime:</label>
+      <input type="time" id="bed-time" name="bed-time" />
+
+      <button id="calculate-wakeup">Calculate Wake-Up Time</button>
+      <p>
+        <button id="calculate-bedtime">Calculate Sleep Hours</button>
+      </p>
+
+      <div class="result" id="result"></div>
+    </main>
+    <div>
+      <h2><u> When to wake up: How much sleep do you need? (7-9 hours)</u></h2>
+      <p class="paragraphy">
+        While the general recommendation is to aim for 7 to 9 hours of sleep,
+        the amount you need will be unique to your biology and lifestyle.
+        Babies, children, and teens need more sleep than adults to facilitate
+        growth and learning. People who are physically active and people dealing
+        with or recovering from illness or injury tend to need more sleep.
+      </p>
+      <div class="container">
+        <h2>Sleep Recommendations by Age Group</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Age Group</th>
+              <th>Recommended Sleep Duration</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Newborn (0–3 months)</td>
+              <td>14–17 hours</td>
+              <td>National Sleep Foundation</td>
+            </tr>
+            <tr>
+              <td>Infant (4–12 months)</td>
+              <td>12–16 hours per 24 hours, including naps</td>
+              <td>American Academy of Sleep Medicine</td>
+            </tr>
+            <tr>
+              <td>Toddler (1–2 years)</td>
+              <td>11–14 hours per 24 hours, including naps</td>
+              <td>American Academy of Sleep Medicine</td>
+            </tr>
+            <tr>
+              <td>Preschool (3–5 years)</td>
+              <td>10–13 hours per 24 hours, including naps</td>
+              <td>American Academy of Sleep Medicine</td>
+            </tr>
+            <tr>
+              <td>School Age (6–12 years)</td>
+              <td>9–12 hours per 24 hours</td>
+              <td>American Academy of Sleep Medicine</td>
+            </tr>
+            <tr>
+              <td>Teen (13–18 years)</td>
+              <td>8–10 hours per 24 hours</td>
+              <td>American Academy of Sleep Medicine</td>
+            </tr>
+            <tr>
+              <td>Adult (18–60 years)</td>
+              <td>7 or more hours per night</td>
+              <td>American Academy of Sleep Medicine</td>
+            </tr>
+            <tr>
+              <td>Older Adult (61–64 years)</td>
+              <td>7–9 hours</td>
+              <td>National Sleep Foundation</td>
+            </tr>
+            <tr>
+              <td>Senior (65 years and older)</td>
+              <td>7–8 hours</td>
+              <td>National Sleep Foundation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
